@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%"   stop-color="#fff0e6"/>
+      <stop offset="100%" stop-color="#faf5ed"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%"   stop-color="#f0d4d1" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Corner sparkles -->
+  <path d="M80 80 L85 100 L105 105 L85 110 L80 130 L75 110 L55 105 L75 100Z" fill="#c4a067" opacity="0.8"/>
+  <path d="M1120 80 L1125 100 L1145 105 L1125 110 L1120 130 L1115 110 L1095 105 L1115 100Z" fill="#c4a067" opacity="0.8"/>
+  <path d="M80 530 L85 550 L105 555 L85 560 L80 580 L75 560 L55 555 L75 550Z" fill="#c4a067" opacity="0.5"/>
+  <path d="M1120 530 L1125 550 L1145 555 L1125 560 L1120 580 L1115 560 L1095 555 L1115 550Z" fill="#c4a067" opacity="0.5"/>
+  <!-- Small sparkles -->
+  <circle cx="220" cy="150" r="5" fill="#c4a067" opacity="0.6"/>
+  <circle cx="980" cy="150" r="5" fill="#c4a067" opacity="0.6"/>
+  <circle cx="600" cy="80"  r="4" fill="#c4a067" opacity="0.4"/>
+
+  <!-- Decorative circle halo -->
+  <ellipse cx="600" cy="280" rx="230" ry="220" fill="none" stroke="#c4a067" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="600" cy="280" rx="200" ry="190" fill="none" stroke="#e8d9cd" stroke-width="1" opacity="0.5"/>
+
+  <!-- Mini couple illustration -->
+  <g transform="translate(480, 60) scale(0.7)">
+    <!-- girl dress -->
+    <path d="M160 120 Q148 155 136 200 Q133 230 158 270 L215 270 Q234 230 220 195 L206 118Z" fill="#d98b9a"/>
+    <!-- girl head -->
+    <circle cx="183" cy="95" r="34" fill="#ffdfc6"/>
+    <!-- girl hair -->
+    <path d="M155 90 Q150 55 183 50 Q216 50 220 88 L208 70 Q188 80 163 72Z" fill="#3d2028"/>
+    <!-- girl eyes -->
+    <ellipse cx="173" cy="92" rx="3" ry="4" fill="#4c2c32"/>
+    <ellipse cx="193" cy="92" rx="3" ry="4" fill="#4c2c32"/>
+    <!-- girl smile -->
+    <path d="M175 107 Q183 115 191 107" fill="none" stroke="#a95361" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- girl cheeks -->
+    <circle cx="165" cy="103" r="7" fill="#e88e99" opacity=".5"/>
+    <circle cx="201" cy="103" r="7" fill="#e88e99" opacity=".5"/>
+    <!-- girl feet -->
+    <rect x="155" y="265" width="24" height="32" rx="4" fill="#ffdfc6"/>
+    <rect x="195" y="265" width="24" height="32" rx="4" fill="#ffdfc6"/>
+    <rect x="148" y="292" width="38" height="12" rx="4" fill="#8b394d"/>
+    <rect x="190" y="292" width="38" height="12" rx="4" fill="#8b394d"/>
+
+    <!-- boy shirt -->
+    <path d="M280 130 Q300 120 325 135 L345 210 L330 265 L270 265 L255 210Z" fill="#fff3df"/>
+    <!-- boy head -->
+    <circle cx="303" cy="103" r="32" fill="#ffdfc6"/>
+    <!-- boy hair -->
+    <path d="M275 100 Q270 66 300 58 Q332 58 334 95 L322 78 Q303 88 285 79Z" fill="#3d2028"/>
+    <!-- boy eyes -->
+    <ellipse cx="292" cy="100" rx="3" ry="4" fill="#4c2c32"/>
+    <ellipse cx="312" cy="100" rx="3" ry="4" fill="#4c2c32"/>
+    <!-- boy smile -->
+    <path d="M293 116 Q302 124 311 116" fill="none" stroke="#a95361" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- boy cheeks -->
+    <circle cx="284" cy="112" r="6" fill="#e88e99" opacity=".45"/>
+    <circle cx="320" cy="112" r="6" fill="#e88e99" opacity=".45"/>
+    <!-- boy trousers -->
+    <rect x="268" y="258" width="27" height="36" rx="3" fill="#51434a"/>
+    <rect x="304" y="258" width="27" height="36" rx="3" fill="#51434a"/>
+    <rect x="262" y="290" width="40" height="12" rx="4" fill="#4d2935"/>
+    <rect x="298" y="290" width="40" height="12" rx="4" fill="#4d2935"/>
+
+    <!-- joined hands heart -->
+    <path d="M222 190 C213 175 197 183 204 197 L225 218 L246 197 C253 183 237 175 225 190Z" fill="#b74d67"/>
+  </g>
+
+  <!-- Main heading -->
+  <text x="600" y="410" font-family="Georgia, serif" font-size="68" font-weight="400" fill="#79283d" text-anchor="middle" letter-spacing="-2">
+    For Palku, with all my heart ♡
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="468" font-family="Georgia, serif" font-size="28" font-style="italic" fill="#886c6d" text-anchor="middle" opacity="0.9">
+    Four months down. Forever to go.
+  </text>
+
+  <!-- Divider line -->
+  <line x1="450" y1="495" x2="750" y2="495" stroke="#e8d9cd" stroke-width="1"/>
+
+  <!-- Footer note -->
+  <text x="600" y="525" font-family="Georgia, serif" font-size="16" fill="#c4a067" text-anchor="middle" letter-spacing="3" opacity="0.8">
+    A LITTLE LOVE STORY · CHAPTER 04
+  </text>
+</svg>

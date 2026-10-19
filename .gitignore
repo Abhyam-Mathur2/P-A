@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+build
+.env*
+.DS_Store
+*.zip
+*.tsbuildinfo
+Dreamy *.png
+WhatsApp Image *.jpeg
