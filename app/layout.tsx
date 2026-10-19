@@ -1,21 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "./siteConfig";
-
-const serif = Cormorant_Garamond({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-serif",
-  weight: ["400", "600"],
-});
-
-const sans = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-sans",
-  weight: ["400", "500", "600"],
-});
 
 const TITLE       = "For Palku, with all my heart ♡";
 const DESCRIPTION = "Four months down. Forever to go. A little love story made just for Palku.";
@@ -59,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Canonical, update NEXT_PUBLIC_SITE_URL env var before deploying */}
         <link rel="canonical" href={SITE_URL} />
       </head>
-      <body className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }

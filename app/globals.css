@@ -18,8 +18,8 @@
   --line:     #e8d9cd;
 
   /* Typography */
-  --serif:    var(--font-serif), Georgia, "Times New Roman", serif;
-  --sans:     var(--font-sans), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --serif:    Georgia, "Times New Roman", serif;
+  --sans:     ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Spacing */
   --section-pad-v: clamp(64px, 10vw, 130px);
